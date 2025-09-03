@@ -1,5 +1,3 @@
 # Co-Occurrence Matrix
 
 This project demonstrates how to generate a co-occurrence matrix from a corpus of text using Python. A co-occurrence matrix is a useful NLP tool for analyzing how often words appear together within a specified context window, supporting tasks such as word embeddings, topic modeling, and semantic analysis. The script accepts raw text or tokenized input, allows configuration of the context window size, and outputs a matrix showing word co-occurrence frequencies. Optional visualizations are included using heatmaps or tables. This project is well-suited for NLP education, word association analysis, feature engineering for machine learning models, and general text corpus exploration. However, it is not optimized for very large datasets, assumes English-language tokenization, and does not include preprocessing steps like stemming or stopword removal. It requires Python 3.x along with NumPy, Pandas, and optionally Matplotlib for visualization.
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dXrv81GXx5Ws3wewCBBiMZQSBVedzrNw)
