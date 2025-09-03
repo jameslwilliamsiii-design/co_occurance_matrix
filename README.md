@@ -1,41 +1,5 @@
-Co-Occurrence Matrix
+**Co-Occurrence Matrix**
 
-This project demonstrates how to generate a co-occurrence matrix from a corpus of text using Python. A co-occurrence matrix is a useful NLP tool for analyzing how often words appear together within a specified context window. It provides foundational insights for tasks like word embeddings, topic modeling, and semantic analysis.
+This project demonstrates how to generate a co-occurrence matrix from a corpus of text using Python. A co-occurrence matrix is a useful NLP tool for analyzing how often words appear together within a specified context window, supporting tasks such as word embeddings, topic modeling, and semantic analysis. The script accepts raw text or tokenized input, allows configuration of the context window size, and outputs a matrix showing word co-occurrence frequencies. Optional visualizations are included using heatmaps or tables. This project is well-suited for NLP education, word association analysis, feature engineering for machine learning models, and general text corpus exploration. However, it is not optimized for very large datasets, assumes English-language tokenization, and does not include preprocessing steps like stemming or stopword removal. It requires Python 3.x along with NumPy, Pandas, and optionally Matplotlib for visualization.
 
-Features
-
-Accepts raw text or tokenized input
-
-Configurable context window size
-
-Outputs a matrix showing word co-occurrence frequencies
-
-Visualizes results with heatmaps or tables (optional)
-
-Use Cases
-
-Natural Language Processing (NLP) education
-
-Word association exploration
-
-Feature engineering for ML models
-
-Text corpus exploration
-
-Limitations
-
-Not optimized for very large corpora
-
-Assumes English-language tokenization
-
-No built-in preprocessing (e.g., stemming or stopword removal)
-
-Requirements
-
-Python 3.x
-
-NumPy
-
-Pandas
-
-Matplotlib (optional for visualization)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dXrv81GXx5Ws3wewCBBiMZQSBVedzrNw)
